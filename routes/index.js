@@ -10,6 +10,13 @@ router.get('/about', function(req, res, next) {
   res.render('about');
 });
 
+/* GET Hello page. */
+router.get('/hello', function(req, res, next) {
+  res.render('hello');
+});
+
+
+
 /* GET recipes. */
 
 router.get('/', function(req, res, next) {
@@ -43,5 +50,8 @@ router.get('/about', (req, res) => {
 	res.render('about', { user: req.user });
 });
 
+router.get('/hello', (req, res) => {
+	res.render('hello', { user: req.user });
+});
 
 module.exports = router;
