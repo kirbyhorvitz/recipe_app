@@ -10,16 +10,10 @@ router.get('/about', function(req, res, next) {
   res.render('about');
 });
 
-/* GET Hello page. */
-router.get('/hello', function(req, res, next) {
-  res.render('hello');
-});
-
-
 
 /* GET recipes. */
 
-router.get('/', function(req, res, next) {
+router.get('/hello', function(req, res, next) {
 
   var requestUrl = `https://api.spoonacular.com/recipes/complexSearch?apiKey=${API_KEY}` // using string interpolation here, but you could alternatively do concatenation with + operators
   console.log("REQUEST URL", requestUrl)
@@ -36,7 +30,7 @@ router.get('/', function(req, res, next) {
     .catch(function(err){
       console.log("DATA ERROR:", err)
       req.flash("danger", "OOPS, Please check your search terms and try again.")
-      res.redirect("/")
+      res.redirect("hello")
     })
 });
 
