@@ -1,3 +1,4 @@
+<!---Camden Gilliam helped set up API route to Index home page--->
 var fetch = require('node-fetch');
 var express = require('express');
 var router = express.Router();
@@ -21,15 +22,14 @@ router.get('/', function(req, res, next) {
         return response.json()
     })
     .then(function(data){
-        console.log("STOCK DATA SUCCESS", Object.keys(data))
-      //   var latestClose = Object.values(data["Time Series (Daily)"])[0]["5. adjusted close"]
-      //   req.flash("success", "Stock Data Request Success!")
-           res.render("recipes", {data: JSON.stringify(data)});
+      console.log("Data", data)
+
+           res.render("recipes", {data:data});
       })
     .catch(function(err){
-      console.log("STOCK DATA ERROR:", err)
-      req.flash("danger", "OOPS, Please check your inputs and try again.")
-      res.redirect("/stocks/form")
+      console.log("DATA ERROR:", err)
+      req.flash("danger", "OOPS, Please check your search terms and try again.")
+      res.redirect("/")
     })
 });
 
