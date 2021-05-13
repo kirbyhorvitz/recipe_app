@@ -33,4 +33,15 @@ router.get('/', function(req, res, next) {
     })
 });
 
+
+
+ router.get(['/'], (req, res) => {
+	res.render('index', { user: req.user });
+});
+
+router.get('/about', (req, res) => {
+	res.render('about', { user: req.user });
+});
+
+
 module.exports = router;

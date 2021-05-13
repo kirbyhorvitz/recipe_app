@@ -2,17 +2,26 @@
 
 <p>Here are your recipe search results!</p>
 
+
 <!---Camden Gilliam helped set up title for first card--->
 <div>
 
 <% for(var i=0; i< data.results.length; i++) { %>
-            <div class='col'>
-            <div class='card mt-5'>
+    <div class="container">
+        <div class="row"></div>
+          <div class="col">
+    
+    
+    <div class="card" style="width: 20rem;">       
+                <img class="card-img-top" src="<%= data.results[i].image %>" alt="Recipe image">
                 <div class="card-body">
-                <p class="card-text"><%= data.results[i].title %></p>
+                <h5 class="card-title"><%= data.results[i].title %></h5>
                 </div>
             </div>
             </div>
+        </div>
+    </div>
+    </div>
         <% } %>
         
 </div>
