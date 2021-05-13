@@ -1,4 +1,3 @@
-// Camden Gilliam assisted with setting up this data structure as opposed to hard coding multiple pages with recipes. This structure is helpful for scale. //
 [ 
     {
         "id": "1",

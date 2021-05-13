@@ -16,6 +16,7 @@ router.get('/ourrecipes', function(req, res, next) {
   res.render('ourrecipes', {data: ourRecipes});
 });
 
+//*Get recipe id for specific "Our Recipes" when you click the go button --Camden Gilliam helped set up data json file so that these did not have to be hard coded. This helps with scaling.---
 
 router.get('/ourrecipes/:id', function(req, res, next) {
  //recipe id is in req.params.id
