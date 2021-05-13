@@ -13,7 +13,7 @@ router.get('/about', function(req, res, next) {
 
 /* GET recipes. */
 
-router.get('/hello', function(req, res, next) {
+router.get('/recipelist', function(req, res, next) {
 
   var requestUrl = `https://api.spoonacular.com/recipes/complexSearch?apiKey=${API_KEY}` // using string interpolation here, but you could alternatively do concatenation with + operators
   console.log("REQUEST URL", requestUrl)
@@ -30,7 +30,7 @@ router.get('/hello', function(req, res, next) {
     .catch(function(err){
       console.log("DATA ERROR:", err)
       req.flash("danger", "OOPS, Please check your search terms and try again.")
-      res.redirect("hello")
+      res.redirect("recipelist")
     })
 });
 
@@ -44,8 +44,8 @@ router.get('/about', (req, res) => {
 	res.render('about', { user: req.user });
 });
 
-router.get('/hello', (req, res) => {
-	res.render('hello', { user: req.user });
+router.get('/recipelist', (req, res) => {
+	res.render('recipelist', { user: req.user });
 });
 
 module.exports = router;
