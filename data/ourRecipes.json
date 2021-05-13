@@ -1,0 +1,39 @@
+// Camden Gilliam assisted with setting up this data structure as opposed to hard coding multiple pages with recipes. This structure is helpful for scale. //
+[ 
+    {
+        "id": "1",
+        "title": "Mammaw's Deviled Eggs",
+        "image": "/images/DeviledEggs.jpg",
+        "description": "We play this recipe fast and loose. A dollop of this, a dash of that...for perfect southern deviled eggs inspired by Kirby's Mammaw.",
+        "recipe": [
+            "Step 1. Bring 12 eggs to a boil and boil for 5 minutes.",
+            "Step 2. Cover boiled eggs and turn off stove. Leave covered for 13 minutes.",
+            "Step 3. Carefully remove and drain water from the eggs.",
+            "Step 4. Remove the shell from boiled eggs and slice each boiled egg in half longways with a butter knife.",
+            "Step 5. Carefully separate the yellow from the white of the egg and place all yellow yolks into a medium sized mixing bowl.",
+            "Step 6. To the mixing bowl of yolks, add two tablespoons of mayonaise (regular or low fat works great), a tablespoon of sweet pickle relish, a teaspoon (or just a squirt) of yellow mustard, a tablespoon of worcestershire sauce, and a pinch of salt and pepper.",
+            "Step 7. Mix together with a fork until creamy and fully blended. After a taste test, add more of any ingredient to get it tasting to your liking.",
+            "Step 8. Add a spoonful of the yolk mixture to the center of each half of the boiled white part of the egg. To elevate the look, you can also add the yolk mixture to a plastic bag and pipe it into the center of the egg.",
+            "Step 9. Carefully top each finsihed egg with gentle shakes of paprika and fresh ground pepper.",
+            "Step 10. Place in refrigerator for about an hour to ensure they are cold."
+        ]
+    },
+    {
+        "id": "2",
+        "title": "Mammaw's Deviled Eggs",
+        "image": "/images/DeviledEggs.jpg",
+        "description": "We play this recipe fast and loose. A dollop of this, a dash of that...for perfect southern deviled eggs inspired by Kirby's Mammaw.",
+        "recipe": [
+            "Step 1. Bring 12 eggs to a boil and boil for 5 minutes.",
+            "Step 2. Cover boiled eggs and turn off stove. Leave covered for 13 minutes.",
+            "Step 3. Carefully remove and drain water from the eggs.",
+            "Step 4. Remove the shell from boiled eggs and slice each boiled egg in half longways with a butter knife.",
+            "Step 5. Carefully separate the yellow from the white of the egg and place all yellow yolks into a medium sized mixing bowl.",
+            "Step 6. To the mixing bowl of yolks, add two tablespoons of mayonaise (regular or low fat works great), a tablespoon of sweet pickle relish, a teaspoon (or just a squirt) of yellow mustard, a tablespoon of worcestershire sauce, and a pinch of salt and pepper.",
+            "Step 7. Mix together with a fork until creamy and fully blended. After a taste test, add more of any ingredient to get it tasting to your liking.",
+            "Step 8. Add a spoonful of the yolk mixture to the center of each half of the boiled white part of the egg. To elevate the look, you can also add the yolk mixture to a plastic bag and pipe it into the center of the egg.",
+            "Step 9.s Carefully top each finsihed egg with gentle shakes of paprika and fresh ground pepper.",
+            "Step 10. Place in refrigerator for about an hour to ensure they are cold."
+        ]
+    }
+]
