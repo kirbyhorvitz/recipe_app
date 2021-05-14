@@ -19,20 +19,72 @@
     },
     {
         "id": "2",
-        "title": "Mammaw's Deviled Eggs",
-        "image": "/images/DeviledEggs.jpg",
-        "description": "We play this recipe fast and loose. A dollop of this, a dash of that...for perfect southern deviled eggs inspired by Kirby's Mammaw.",
+        "title": "Pappaw's Cole Slaw",
+        "image": "/images/ColeSlaw.jpg",
+        "description": "The perfect addition to any summer picnic or backyard cookout.",
         "recipe": [
-            "Step 1. Bring 12 eggs to a boil and boil for 5 minutes.",
-            "Step 2. Cover boiled eggs and turn off stove. Leave covered for 13 minutes.",
-            "Step 3. Carefully remove and drain water from the eggs.",
-            "Step 4. Remove the shell from boiled eggs and slice each boiled egg in half longways with a butter knife.",
-            "Step 5. Carefully separate the yellow from the white of the egg and place all yellow yolks into a medium sized mixing bowl.",
-            "Step 6. To the mixing bowl of yolks, add two tablespoons of mayonaise (regular or low fat works great), a tablespoon of sweet pickle relish, a teaspoon (or just a squirt) of yellow mustard, a tablespoon of worcestershire sauce, and a pinch of salt and pepper.",
-            "Step 7. Mix together with a fork until creamy and fully blended. After a taste test, add more of any ingredient to get it tasting to your liking.",
-            "Step 8. Add a spoonful of the yolk mixture to the center of each half of the boiled white part of the egg. To elevate the look, you can also add the yolk mixture to a plastic bag and pipe it into the center of the egg.",
-            "Step 9.s Carefully top each finsihed egg with gentle shakes of paprika and fresh ground pepper.",
-            "Step 10. Place in refrigerator for about an hour to ensure they are cold."
+            "Step 1. Pour 1 package of cabbage slaw (from the salad aisle) into a mixing bowl. You can also grate up a head of cabbage, carrots, and raddishes for a truly homemade recipe.",
+            "Step 2. Add two tablespoons of white vinegar, 1 tablespoon of mustard, 1 tablespoon of mayonaise, 1-2 tablespoon of sugar, salt and pepper and mix together.",
+            "Step 3. Tastetest and add more of any of the above ingredients in teaspoon increments to taste.",
+            "Step 4. Place in refrigerator until ready to serve."
+        ]
+    },
+    {
+        "id": "3",
+        "title": "Southern Sweet Corn Bread",
+        "image": "/images/CornBread.jpg",
+        "description": "This ain't no regular cornbread! This is the moist, sweet, melt-in-your-mouth type!",
+        "recipe": [
+            "Step 1. Preheat oven to 400 degrees F.",
+            "Step 2. Pour 1 package of Jiffy corn muffin mix into a mixing bowl.",
+            "Step 3. Add one egg, 1/4 cup milk, half a can of sweet creamed corn, and a dollop of sour cream.",
+            "Step 4. Mix together until creamy and pour into a 9 inch cast iron skillet (or whatever pan you have).",
+            "Step 6. Once the knife or toothpick comes out clean / dry, remove the pan from the oven to cool.",
+            "Step 7. Lather the top of the corn bread with butter and voila!"
+        ]
+    },
+    {
+        "id": "4",
+        "title": "Quick 'n' Dirty Black Eyed Peas",
+        "image": "/images/BlackEyedPeas.jpg",
+        "description": "If you're short on time, try these southern black eyed peas that are quick to make and full of flavor!",
+        "recipe": [
+            "Step 1. Heat a sauce pan on medium high heat and add olive oil or butter.",
+            "Step 2. Add in half a chopped onion, a clove of chopped garlic (or a tablespoon of minced garlic), and a smoked ham hock. If the store doesn't have a smoked ham hock, you can ask the butcher of a slice of ham. I like to slice the ham including the fatty pieces into about a half an inch thick (about half a cup worth.)",
+            "Step 3. Heat the onion, garlic, ham mixture until they start to brown a bit.",
+            "Step 4. Pour in two cans of regular black eyed peas (if you aren't short of time you can do fresh or frozen black eyed peas as well).",
+            "Step 5. Stir in a tablespoon of chili powder, a tablespoon of apple cyder vinegar, and if you like spice, you can add a teaspoon of tobasco OR a dash of ceyenne pepper.",
+            "Step 6. Stir all the ingredients together and keep over medium high heat until the mixture is boiling.",
+            "Step 7. Remove from heat, cool a bit, and its ready to serve!"
+        ]
+    },
+    {
+        "id": "5",
+        "title": "Memphis Style Baby Back Ribs",
+        "image": "/images/MemphisRibs.jpg",
+        "description": "Although these are best made in a smoker, an oven'll do just fine! ",
+        "recipe": [
+            "Step 1. Preheat oven to 250 degrees F.",
+            "Step 2. Remove membrane and pat baby back ribs dry after letting rest in room temperature for about 30 mins.",
+            "Step 3. Create Memphis Dry Rub: 1/4 cup brown sugar, 1/4 cup white sugar, 1/4 cup paprika, 3 tablespons salt, 1 tabelspoon cayenne pepper, 1 tablespoon ground black pepper, 1 tablespoon garlic powder, 1 tablespoon chili powder.",
+            "Step 4. Separate half of the dry rub and add to the raw ribs covering top, bottom, and sides.",
+            "Step 5. Fill a spray bottle with half apple cider vinegar, half apple juice and spritz the raw ribs before placing in the oven bone down, uncovered.",
+            "Step 4. Every 15 minutes, spray with apple cider vinegar/apple juice mixture.",
+            "Step 5. Bake for about 2.5 hours. Use meat thermometer to confirm done-ness.",
+            "Step 6. Once cooked, remove from oven and let rest for 30 minutes.",
+            "Step 7. Serve with Memphis Style BBQ Sauce (can be homemade or bought from the store.)"
+        ]
+    } ,
+    {
+        "id": "6",
+        "title": "Mama's Sausage Cream Cheese Dip",
+        "image": "/images/SausageDip.jpg",
+        "description": "An easy staple dip for pleasing and impressing your guests!",
+        "recipe": [
+            "Step 1. Cook 1 package of Jimmy Dean regular ground sausage in a frying pan and drain the fat.",
+            "Step 2. Empty 2 packages of light cream cheese and 1 can of Rotel into a glass mixing bowl and microwave for about 2 minutes.",
+            "Step 3. Mix together the sausage, cream cheese, and Rotel mixture and microwave in 30 second increments until the mixture is warm and creamy.",
+            "Step 4. Cut a hole in the top of a King's Hawaiian Bread Bowl and pour the dip into the center. If a breadbowl is not available in a store, serve the dip in a bowl and opt for Hawaiian Kings rolls instead!"
         ]
     }
 ]

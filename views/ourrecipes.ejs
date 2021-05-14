@@ -1,6 +1,6 @@
 <!---When the cards would only list in a straight column, Camden Gilliam assisted in showing how lining up div elements is important to ensure the cards display correctly.--->
 
-<h1>Our Recipes</h1>
+<h1>Our Original Recipes</h1>
 <p>This is the our recipes page... </p>
 
 <body>
@@ -11,9 +11,9 @@
                         <div class="card mt-3" style="width: 18rem;">       
                             <img class="card-img-top" src="<%= data[i].image %>">
                             <div class="card-body">
-                                <h5 class="card-title"><%= data.title %></h5>
-                                <p class="card-text"><%= data.description %></p>
-                                <a href="/ourrecipes/<%= data[i].id %>" class="btn btn-primary">Click for recipe</a>
+                                <h5 class="card-title"><%= data[i].title %></h5>
+                                <p class="card-text"><%= data[i].description %></p>
+                                <a href="/ouroriginalrecipes/<%= data[i].id %>" class="btn btn-primary">Click for recipe</a>
                             </div>
                         </div>
                     </div>

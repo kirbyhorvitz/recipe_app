@@ -1,20 +1,32 @@
 
-<h1>Recipe List</h1>
-<p>This is your recipe list... </p>
+<h1>Recipe Search</h1>
+<p>Search for recipes here! Try typing in an ingredient... </p>
 
-<!---Camden Gilliam helped set up title for first card--->
+<!---Bootstrap Search bar   --->
+
+<form action="/recipes" method="GET">
+    <div class="input-group mb-3">
+        <input type="text" name="term" class="form-control" placeholder="Search Recipe!" aria-label="Recipient's username" aria-describedby="button-addon2" >
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="submit" id="search">Button</button>
+        </div>
+    </div>
+</form>
+
+
+<!-----//*camden Gilliam helped set up title for first card//---->
 <div class='container'>
     <div class='row'>
         <% for(var i=0; i< data.results.length; i++) { %>
-                <div class="col">
-                    <div class="card mt-3" style="width: 20rem;">       
+                <div class="col-sm">
+                    <div class="card mt-3" style="width: 20rem; margin-bottom: 1rem;"> 
                         <img class="card-img-top" src="<%= data.results[i].image %>" alt="Recipe image">
                         <div class="card-body">
                             <h5 class="card-title"><%= data.results[i].title %></h5>
                         </div>
                     </div>
                 </div>
-            
+                <br>
         <% } %>   
     </div>  
 </div>
