@@ -1,5 +1,7 @@
 # Hoya Recipe 2021 App
 
+
+
 ## Prerequisites
 
   + Node.js, and NPM
@@ -81,3 +83,5 @@ Use the search bar to run the script to fetch recipes form the API.
 ### Our Original Recipes "ourRecipes.JSON"
 
 If you would like to manually add new recipes, update the ourRecipes.JSON under the data folder. Copy the structure, update the ID, and update all the fields. The script will automatically create a card and new webpage for your newly added recipe!
+
+Camden Gilliam, a developer at 40AU in Nashville, TN helped create this data structure as it helps with scaling hundreds of recipes if needed without having to hard code the data.
